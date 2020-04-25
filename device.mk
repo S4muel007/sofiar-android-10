@@ -41,6 +41,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.renderer=skiavk
 
+# Enable dex2oat64
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat64.enabled=true
+
 AB_OTA_PARTITIONS += \
     boot \
     system \

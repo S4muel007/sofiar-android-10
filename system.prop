@@ -194,3 +194,6 @@ ro.mot.build.version.release=30.11
 ro.treble.enabled=true
 net.bt.name=Android
 ro.vendor.qti.va_aosp.support=1
+
+#Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true

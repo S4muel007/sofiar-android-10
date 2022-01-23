@@ -114,7 +114,7 @@ sys.qca1530=detect
 persist.debug.coresight.config=stm-events
 
 #Enable virtual display.
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 
 #hwui properties
 ro.hwui.texture_cache_size=72
